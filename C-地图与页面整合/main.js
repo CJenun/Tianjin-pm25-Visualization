@@ -10,4 +10,7 @@ window.mountTianjinStationMap(document.querySelector('#station-map'), {
   filters, stations, daily: sample.daily, boundary: window.tianjinBoundary,
 });
 window.mountPm25Timeline(document.querySelector('#timeline'), {filters, stations, daily: sample.daily});
+window.mountPm25Heatmap(document.querySelector('#heatmap'), {
+  filters, stations, hourly: window.tianjinPm25Hourly || [],
+});
 document.querySelector('#reset').addEventListener('click', () => filters.reset());

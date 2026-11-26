@@ -1,0 +1,12 @@
+.pm25-heatmap .heatmap-status { margin: 8px 0; font-size: 14px; }
+.pm25-heatmap .heatmap-chart { position: relative; overflow-x: auto; }
+.pm25-heatmap svg { display: block; width: 100%; min-width: 840px; height: auto; }
+.pm25-heatmap text { fill: #222; font-size: 13px; }
+.pm25-heatmap .heatmap-cell { stroke: #fff; stroke-width: 1; }
+.pm25-heatmap .heatmap-cell:focus-visible { outline: 2px solid #222; }
+.pm25-heatmap .heatmap-tip { position: absolute; z-index: 3; pointer-events: none; width: 270px; padding: 7px 9px; background: #fff; border: 1px solid #333; font-size: 13px; line-height: 1.5; }
+.pm25-heatmap .heatmap-legend { display: flex; align-items: center; flex-wrap: wrap; gap: 7px; margin: 8px 0; font-size: 13px; }
+.pm25-heatmap .heatmap-legend i { display: inline-block; width: 170px; height: 12px; border: 1px solid #777; }
+.pm25-heatmap .heatmap-legend b { margin-left: 12px; font-weight: normal; }
+.pm25-heatmap .heatmap-legend b::before { content: ''; display: inline-block; width: 11px; height: 11px; margin-right: 5px; background: #d5d9dd; border: 1px solid #777; vertical-align: -1px; }
+.pm25-heatmap .heatmap-legend small { width: 100%; }
