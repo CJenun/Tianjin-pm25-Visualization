@@ -3,8 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>天津PM2.5站点与日均变化</title>
+  <title>天津 PM2.5 时空可视化</title>
   <link rel="stylesheet" href="timeline.css">
+  <link rel="stylesheet" href="heatmap.css">
   <link rel="stylesheet" href="map.css">
   <script defer src="vendor/d3.v7.js"></script>
   <script defer src="sample-data.js"></script>
@@ -13,12 +14,14 @@
   <script defer src="filters.js"></script>
   <script defer src="timeline.js"></script>
   <script defer src="station-map.js"></script>
+  <script defer src="hourly-data.js"></script>
+  <script defer src="heatmap.js"></script>
   <script defer src="main.js"></script>
 </head>
 <body class="trend-preview">
   <main>
     <header>
-      <h1>天津PM2.5站点与日均变化</h1>
+      <h1>天津 PM2.5 时空可视化</h1>
       <button id="reset" type="button">重置筛选</button>
     </header>
     <div class="lab5-layout">
@@ -32,6 +35,10 @@
         <div id="timeline"></div>
       </section>
     </div>
+    <section aria-labelledby="heatmap-title">
+      <h2 id="heatmap-title">月份×小时 PM2.5 热力图</h2>
+      <div id="heatmap"></div>
+    </section>
     <footer>
       <a href="https://quotsoft.net/air/">空气质量监测档案</a> ·
       <a href="https://geojson.cn/data/atlas/tiandi">天津底图（天地图来源，GeoJSON.CN提供）</a> ·

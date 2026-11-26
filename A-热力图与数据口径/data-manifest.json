@@ -1,0 +1,65 @@
+{
+  "source": "中国空气质量历史数据存档（quotsoft.net）",
+  "files": [
+    {
+      "date": "20240105",
+      "url": "https://quotsoft.net/air/data/china_sites_20240105.csv",
+      "sha256": "7c565219164991a7538627f9e19b51cca9865bd007393ec21a5ff800ac9d4080",
+      "bytes": 1845076
+    },
+    {
+      "date": "20240106",
+      "url": "https://quotsoft.net/air/data/china_sites_20240106.csv",
+      "sha256": "365a3601d28a0bba9689e7dde3f525bb08ef72aa9ad9658480173199ae5bed5a",
+      "bytes": 1869240
+    },
+    {
+      "date": "20240107",
+      "url": "https://quotsoft.net/air/data/china_sites_20240107.csv",
+      "sha256": "da9c3190d9b44f631423e36a27be8edb6c1d32057844a43f3c044e0016b74d41",
+      "bytes": 1864310
+    },
+    {
+      "date": "20240108",
+      "url": "https://quotsoft.net/air/data/china_sites_20240108.csv",
+      "sha256": "fbcf15def937e82fcf7ffedddbcfcac34c60eb98657b4d12bb8de7c61367dd47",
+      "bytes": 1857366
+    },
+    {
+      "date": "20240109",
+      "url": "https://quotsoft.net/air/data/china_sites_20240109.csv",
+      "sha256": "d27a736295eb6a7d09534efe4346ad2b49da989c520db0a1b46f37f0b9637618",
+      "bytes": 1863076
+    },
+    {
+      "date": "20240110",
+      "url": "https://quotsoft.net/air/data/china_sites_20240110.csv",
+      "sha256": "343dec0159d211cb777a5c3bef188aa4751b0764f5c3a8faeae66e6e22c28600",
+      "bytes": 1866126
+    },
+    {
+      "date": "20240111",
+      "url": "https://quotsoft.net/air/data/china_sites_20240111.csv",
+      "sha256": "c8ff4cabde4724b7ea1088e63ed2113936218b9a0a0824aeabd1092d027a9b64",
+      "bytes": 1887354
+    },
+    {
+      "date": "20240112",
+      "url": "https://quotsoft.net/air/data/china_sites_20240112.csv",
+      "sha256": "63a8b40487880b8d3d1ff59bf909805d28f2b12abc5c7831543e22cccd98bf4d",
+      "bytes": 1897609
+    },
+    {
+      "date": "20240113",
+      "url": "https://quotsoft.net/air/data/china_sites_20240113.csv",
+      "sha256": "faada94291e14b278533ae8706e8285d19968c6bf876bad1b567f122b3a839dc",
+      "bytes": 1906939
+    },
+    {
+      "date": "20240114",
+      "url": "https://quotsoft.net/air/data/china_sites_20240114.csv",
+      "sha256": "f965d102ddc56933325ad9ddd7fa8e3d830e098172973308474dadb95f2ff058",
+      "bytes": 1888295
+    }
+  ]
+}
