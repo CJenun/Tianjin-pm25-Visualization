@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>天津PM2.5站点与日均变化</title>
+  <link rel="stylesheet" href="timeline.css">
+  <link rel="stylesheet" href="map.css">
+  <script defer src="vendor/d3.v7.js"></script>
+  <script defer src="sample-data.js"></script>
+  <script defer src="tianjin-boundary.js"></script>
+  <script defer src="station-locations.js"></script>
+  <script defer src="filters.js"></script>
+  <script defer src="timeline.js"></script>
+  <script defer src="station-map.js"></script>
+  <script defer src="main.js"></script>
+</head>
+<body class="trend-preview">
+  <main>
+    <header>
+      <h1>天津PM2.5站点与日均变化</h1>
+      <button id="reset" type="button">重置筛选</button>
+    </header>
+    <div class="lab5-layout">
+      <section aria-labelledby="map-title">
+        <h2 id="map-title">天津监测站点</h2>
+        <div id="station-map"></div>
+      </section>
+      <section aria-labelledby="trend-title">
+        <h2 id="trend-title">PM2.5日均变化</h2>
+        <div class="trend-legend"><span><i></i>PM2.5日均浓度</span><span>拖选下方概览或输入起止日期</span></div>
+        <div id="timeline"></div>
+      </section>
+    </div>
+    <footer>
+      <a href="https://quotsoft.net/air/">空气质量监测档案</a> ·
+      <a href="https://geojson.cn/data/atlas/tiandi">天津底图（天地图来源，GeoJSON.CN提供）</a> ·
+      <a href="https://docs.datastation.skyviewor.com/data-query/china-pollution/pollution-stations-list/">站点坐标</a>（<a href="https://docs-aliyun.cn-hangzhou.oss.aliyun-inc.com/pdf/DataV-Quick_Start-cn-zh-2017-11-29.pdf">团泊洼坐标资料</a>）
+    </footer>
+  </main>
+</body>
+</html>

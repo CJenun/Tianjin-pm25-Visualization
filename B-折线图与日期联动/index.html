@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>天津 PM2.5 日均变化</title>
+  <link rel="stylesheet" href="timeline.css">
+  <script defer src="vendor/d3.v7.js"></script>
+  <script defer src="sample-data.js"></script>
+  <script defer src="filters.js"></script>
+  <script defer src="timeline.js"></script>
+  <script defer src="preview.js"></script>
+</head>
+<body class="trend-preview">
+  <main>
+    <header>
+      <h1>天津PM2.5日均变化</h1>
+      <div class="trend-controls">
+        <label>监测站 <select id="station" aria-label="监测站"></select></label>
+        <button id="reset" type="button">重置</button>
+      </div>
+    </header>
+    <div class="trend-legend"><span><i></i>PM2.5日均浓度</span><span>拖选下方概览或输入起止日期</span></div>
+    <div id="timeline"></div>
+    <footer>
+      <p>单站日均按当天小时记录计算。多站汇总按站点日均等权计算。<a href="https://quotsoft.net/air/">数据来源</a></p>
+    </footer>
+  </main>
+</body>
+</html>
