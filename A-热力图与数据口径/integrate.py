@@ -39,8 +39,8 @@ def integrate(repo):
                      "window.mountPm25Heatmap(document.querySelector('#heatmap'), {\n"
                      "  filters, stations, hourly: window.tianjinPm25Hourly || [],\n"
                      "});\n")
-    index.write_text(html, encoding="utf-8")
-    main.write_text(js, encoding="utf-8")
+    index.write_text(html, encoding="utf-8", newline="\n")
+    main.write_text(js, encoding="utf-8", newline="\n")
     for name in ("heatmap.js", "heatmap.css"):
         shutil.copy2(source / name, target / name)
     print(f"热力图已接入 {target}")
